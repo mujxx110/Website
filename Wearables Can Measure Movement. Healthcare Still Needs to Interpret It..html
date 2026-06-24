@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Wearables Can Measure Movement. Healthcare Must Interpret It. | My Heart
+      Fitness
+    </title>
+    <meta
+      name="description"
+      content="Wearables collect steps, heart rate, and activity data. The clinical challenge is turning those signals into meaningful preventive care."
+    />
+    <meta
+      property="og:title"
+      content="Wearables Can Measure Movement. Healthcare Still Needs to Interpret It."
+    />
+    <meta
+      property="og:description"
+      content="Explore why wearable devices can make activity visible, but still require a clinical interpretation layer before the data become meaningful inside care."
+    />
+    <meta property="og:type" content="article" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260623" />
+    <script src="tracking.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "headline": "Wearables Can Measure Movement. Healthcare Still Needs to Interpret It.",
+            "description": "Explore why wearable devices can make activity visible, but still require a clinical interpretation layer before the data become meaningful inside care.",
+            "author": {
+              "@type": "Organization",
+              "name": "My Heart Fitness Team"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "My Heart Fitness"
+            },
+            "articleSection": "Digital Prevention"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Are wearable devices clinically useful?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wearable devices can be clinically useful when they measure something relevant, produce reliable information, and support an appropriate clinical conversation or action. Their value does not come from continuous measurement alone. It comes from connecting measurement to interpretation and care."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why are step counts not enough?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Step counts are easy to understand, but they do not fully describe physical activity, exercise intensity, sedentary time, symptoms, or cardiorespiratory fitness. A step count must be interpreted against the patient's baseline, health status, mobility, and trajectory over time."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is baseline-referenced change?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Baseline-referenced change means interpreting activity based on where the patient started rather than relying only on a universal target. The same step count can signal improvement for one patient and deterioration for another."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why have wearables not been fully integrated into clinical care?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wearables generate large amounts of data, but most healthcare workflows are not designed to interpret continuous consumer-device information. Clinicians need concise, validated, context-aware summaries rather than raw streams of steps, heart rate, and activity graphs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can wearable devices replace physicians or cardiac rehabilitation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Wearables should not be treated as replacements for medical care, cardiac rehabilitation, or professional clinical judgment. They may support awareness, engagement, and communication when used appropriately within a broader care model."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do payers and health systems need from wearable data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Payers and health systems need clinically meaningful measures, clear patient selection, workflow fit, evidence of sustained behavior change, and a plausible link to better care delivery or reduced avoidable utilization."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="page-blog page-blog--article">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="meta-bar">
+      <div class="container meta-bar__inner">
+        <span>MY HEART FITNESS&trade;</span>
+        <span>INSIGHTS ARTICLE</span>
+      </div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="/" aria-label="My Heart Fitness home">
+          <span class="brand__icon">
+            <img src="logo.svg" alt="" aria-hidden="true" />
+          </span>
+          <span class="brand__wordmark">
+            <span>MY HEART</span>
+            <span>FITNESS</span>
+          </span>
+        </a>
+
+        <button
+          class="header__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+        >
+          Menu
+        </button>
+
+        <div class="header__menu" id="site-menu" data-nav-page="insights">
+          <nav class="site-nav" aria-label="Primary">
+            <ul>
+              <li><a data-nav-id="home" href="index.html">Home</a></li>
+              <li><a data-nav-id="platform" href="platform.html">Platform</a></li>
+              <li><a data-nav-id="partnerships" href="partnerships.html">Partnerships</a></li>
+              <li><a data-nav-id="insights" href="insights.html">Insights</a></li>
+              <li><a data-nav-id="research" href="research-evidence.html">Clinical Evidence</a></li>
+              <li><a data-nav-id="about" href="about.html">About</a></li>
+              <li><a data-nav-id="contact" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <a class="button button--blue header__cta" href="contact.html#request-demo">
+            Request a Demo
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="section section--blue blog-hero">
+        <div class="container">
+          <div class="blog-breadcrumb" aria-label="Breadcrumb">
+            <a href="insights.html">Insights</a>
+            <span>/</span>
+            <span>Digital Prevention</span>
+          </div>
+
+          <div class="blog-hero__grid">
+            <div class="blog-hero__copy">
+              <div class="blog-meta">
+                <span class="blog-pill">Digital Prevention</span>
+                <span class="blog-meta__item">6 Min Read</span>
+              </div>
+
+              <h1 id="blog-title">
+                Wearables Can Measure Movement. Healthcare Still Needs to
+                Interpret It.
+              </h1>
+
+              <p class="blog-hero__deck">
+                Wearable devices have made physical activity visible in ways
+                healthcare could not previously see. But visibility is not the
+                same as clinical meaning.
+              </p>
+
+              <p class="blog-hero__byline">By the My Heart Fitness Team</p>
+            </div>
+
+            <figure class="blog-feature">
+              <div
+                class="editorial-visual editorial-visual--feature editorial-visual--wearables"
+                role="img"
+                aria-label="Editorial graphic about wearable health data and clinical interpretation"
+              >
+                <span class="editorial-visual__tag">Wearable Data</span>
+                <span class="editorial-visual__panel editorial-visual__panel--primary">
+                  <strong>Visibility</strong>
+                  <span>Steps, active minutes, heart rate, and sleep</span>
+                </span>
+                <span class="editorial-visual__panel editorial-visual__panel--secondary">
+                  <strong>Context</strong>
+                  <span>Baseline, symptoms, trajectory, and risk</span>
+                </span>
+                <span class="editorial-visual__panel editorial-visual__panel--tertiary">
+                  <strong>Action</strong>
+                  <span>Interpret the signal before it enters care</span>
+                </span>
+              </div>
+              <figcaption>
+                Wearables can surface movement data, but care teams still need
+                an interpretation layer that connects those signals to action.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--sand blog-frame">
+        <div class="container blog-frame__grid">
+          <aside class="blog-sidebar" aria-label="Article details">
+            <div class="blog-sidebar__card">
+              <p class="blog-sidebar__label">Category</p>
+              <p class="blog-sidebar__value">Digital Prevention</p>
+            </div>
+
+            <div class="blog-sidebar__card">
+              <p class="blog-sidebar__label">Estimated Read Time</p>
+              <p class="blog-sidebar__value">6 minutes</p>
+            </div>
+
+            <div class="blog-sidebar__card">
+              <p class="blog-sidebar__label">Key Takeaway</p>
+              <p class="blog-sidebar__copy">
+                The challenge is no longer whether wearables can collect data.
+                The harder question is whether healthcare can interpret those
+                data in a way that is clinically useful and operationally
+                manageable.
+              </p>
+            </div>
+          </aside>
+
+          <article class="blog-article" aria-labelledby="blog-title">
+            <div class="blog-article__intro">
+              <p>
+                A smartwatch can count steps, estimate active minutes, track
+                heart rate, and summarize sleep. For patients, that feedback
+                can be motivating. For clinicians, it offers a glimpse into the
+                thousands of hours between medical appointments.
+              </p>
+              <p>
+                The central challenge is no longer whether wearables can
+                collect data. They can. The harder question is whether
+                healthcare can interpret those data in a way that is clinically
+                useful, operationally manageable, and meaningful to the
+                patient.
+              </p>
+            </div>
+
+            <section class="blog-section">
+              <h2>The evidence is not the problem</h2>
+              <p>
+                In 2022, Ferguson and colleagues published a large systematic
+                review in <em>The Lancet Digital Health</em> examining wearable
+                activity trackers and their effect on physical activity and
+                health outcomes. The findings were clear: wearable activity
+                trackers can increase physical activity, particularly when
+                combined with feedback, behavioral support, and broader
+                intervention design.
+              </p>
+              <p>
+                That matters clinically because physical activity is not simply
+                a wellness preference. It is a major determinant of
+                cardiometabolic health, functional capacity, and long-term risk.
+              </p>
+              <p>
+                But the evidence also points to a limitation. A wearable device
+                may support behavior change, but the device itself is rarely
+                the complete intervention. The science is not the bottleneck.
+                The system is.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>Remote patient monitoring: what clinical wearable programs get right, and where they fall short</h2>
+              <p>
+                Consumer wearables have normalized the idea that daily behavior
+                can be measured. Patients who once had little objective sense
+                of their movement can now see steps, exercise minutes, trends,
+                streaks, and reminders in real time.
+              </p>
+              <p>
+                Remote patient monitoring programs are genuinely trying to
+                bridge wearables and clinical care. They have helped create
+                reimbursement pathways and workflow concepts. But measuring
+                movement is not the same as managing movement.
+              </p>
+
+              <div class="blog-callout">
+                <p>
+                  A step count may tell us that a patient moved. It does not
+                  tell us whether that change was meaningful from baseline.
+                </p>
+              </div>
+
+              <p>
+                A step count does not tell us whether the change was sustained,
+                whether it reflected improved fitness, whether symptoms limited
+                progress, or whether the information should change a clinical
+                conversation. Wearables identify the visibility problem. They do
+                not, by themselves, build the workflow, interpretation layer,
+                or accountability structure needed to act on that information.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>The proof of concept and its limits</h2>
+              <p>
+                If wearables represent the visibility layer, cardiac
+                rehabilitation represents the proof of concept for structured
+                exercise-based care.
+              </p>
+              <p>
+                Cardiac rehabilitation shows what physical activity can look
+                like when it is embedded in a clinical model: supervised,
+                measured, progressive, behaviorally supported, and connected to
+                risk-factor management. It is one of the clearest examples of
+                exercise becoming part of healthcare rather than remaining
+                advice given at the end of a visit.
+              </p>
+              <p>
+                It also reaches only a fraction of the people who could
+                benefit. Many patients with cardiovascular risk,
+                cardiometabolic disease, or low functional capacity are not
+                eligible for traditional cardiac rehabilitation. Others are
+                eligible but do not attend, do not complete, or lose support
+                once the program ends.
+              </p>
+              <p>
+                This reflects how healthcare has historically designed
+                exercise: as a referral pathway for selected patients rather
+                than a scalable clinical behavior-management system. Wearables
+                may help extend visibility beyond formal programs, but
+                visibility without interpretation does not solve the clinical
+                problem.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>The nuance most platforms miss</h2>
+              <p>
+                Access to wearable data is not the same as physical activity
+                management. The key concept is baseline-referenced change.
+              </p>
+              <p>
+                A 68-year-old patient recovering from a cardiac event who
+                increases from 1,500 to 5,500 steps per day is not the same
+                clinical situation as a 52-year-old patient with hypertension
+                whose step count falls from 9,000 to 5,000 steps per day. The
+                same number can mean progress, decline, compensation, or noise
+                depending on the patient's baseline and clinical context.
+              </p>
+              <p>
+                Clinicians do not need every data point a wearable can
+                generate. They need to know whether the patient is improving,
+                plateauing, declining, disengaging, or developing a pattern
+                that should prompt a different conversation.
+              </p>
+              <p>
+                This is the gap that neither consumer wellness platforms nor
+                traditional episodic care fully occupy: the space between
+                activity advice and clinical infrastructure, between a
+                recommendation to move more and a managed clinical behavior.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>What closing the gap requires</h2>
+              <p>
+                Making wearable activity data clinically meaningful requires
+                capabilities that healthcare still lacks at scale.
+              </p>
+
+              <ul class="blog-checklist">
+                <li>
+                  <strong>A clinically relevant measurement framework.</strong>
+                  Steps, active minutes, heart rate, sedentary time, and
+                  exercise intensity can all be useful, but they should not be
+                  treated as interchangeable.
+                </li>
+                <li>
+                  <strong>Baseline-referenced interpretation.</strong> The same
+                  activity number can mean different things in different
+                  patients. Clinical usefulness depends on understanding change
+                  from the patient's starting point.
+                </li>
+                <li>
+                  <strong>Workflow integration for clinicians.</strong> Most
+                  clinicians cannot review months of raw wearable data during a
+                  short appointment. Information must be summarized in a way
+                  that is concise, interpretable, and connected to a reasonable
+                  next step.
+                </li>
+                <li>
+                  <strong>Behavioral support when progress stalls.</strong>
+                  Wearables can show that activity declined, but they usually
+                  cannot explain why. A clinically serious model needs a way to
+                  identify and respond to disengagement.
+                </li>
+              </ul>
+
+              <p>
+                None of these requirements are technologically impossible. They
+                are operationally underdeveloped.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>Why this moment matters</h2>
+              <p>
+                Two converging forces are creating an unusual window for
+                progress. First, cardiometabolic prevention is becoming more
+                clinically and economically important. Payers and health systems
+                increasingly need prevention models that can be measured,
+                managed, and scaled. The widespread adoption of GLP-1
+                medications has created a new urgency around lifestyle
+                co-intervention.
+              </p>
+              <p>
+                Second, wearable adoption has created a new data layer outside
+                the clinic. Patients are already generating information about
+                movement, activity, sleep, and physiology. The question is
+                whether healthcare can convert that information into something
+                more useful than a graph inside a consumer app.
+              </p>
+              <p>
+                The missing piece is not the evidence or the technology. The
+                missing piece is the clinical architecture that connects the
+                two, and makes physical activity visible, interpretable, and
+                accountable within the care system.
+              </p>
+            </section>
+
+            <section class="blog-section">
+              <h2>Frequently asked questions</h2>
+
+              <div class="faq-list">
+                <article class="faq-item">
+                  <h3>Are wearable devices clinically useful?</h3>
+                  <p>
+                    Wearable devices can be clinically useful when they measure
+                    something relevant, produce reliable information, and
+                    support an appropriate clinical conversation or action.
+                  </p>
+                </article>
+
+                <article class="faq-item">
+                  <h3>Why are step counts not enough?</h3>
+                  <p>
+                    Step counts are easy to understand, but they do not fully
+                    describe physical activity, exercise intensity, sedentary
+                    time, symptoms, or cardiorespiratory fitness.
+                  </p>
+                </article>
+
+                <article class="faq-item">
+                  <h3>What is baseline-referenced change?</h3>
+                  <p>
+                    Baseline-referenced change means interpreting activity based
+                    on where the patient started rather than relying only on a
+                    universal target. The same number can signal improvement
+                    for one patient and deterioration for another.
+                  </p>
+                </article>
+
+                <article class="faq-item">
+                  <h3>Why have wearables not been fully integrated into clinical care?</h3>
+                  <p>
+                    Wearables generate large amounts of data, but most
+                    healthcare workflows are not designed to interpret
+                    continuous consumer-device information. Clinicians need
+                    concise, validated, context-aware summaries rather than raw
+                    data streams.
+                  </p>
+                </article>
+
+                <article class="faq-item">
+                  <h3>Can wearable devices replace physicians or cardiac rehabilitation?</h3>
+                  <p>
+                    No. Wearables should not be treated as replacements for
+                    medical care, cardiac rehabilitation, or professional
+                    clinical judgment.
+                  </p>
+                </article>
+
+                <article class="faq-item">
+                  <h3>What do payers and health systems need from wearable data?</h3>
+                  <p>
+                    Payers and health systems need clinically meaningful
+                    measures, clear patient selection, workflow fit, evidence of
+                    sustained behavior change, and a plausible link to better
+                    care delivery or reduced avoidable utilization.
+                  </p>
+                </article>
+              </div>
+            </section>
+
+            <section class="blog-section">
+              <h2>References</h2>
+
+              <ol class="blog-reference-list">
+                <li>
+                  Ferguson T, Olds T, Curtis R, et al. Effectiveness of
+                  wearable activity trackers to increase physical activity and
+                  improve health: a systematic review of systematic reviews and
+                  meta-analyses. <em>Lancet Digital Health.</em>
+                  2022;4(8):e615-e626.
+                </li>
+                <li>
+                  Hughes A, Shandhi MMH, Master H, Dunn J, Brittain E.
+                  Wearable devices in cardiovascular medicine.
+                  <em>Circulation Research.</em> 2023;132(5):652-670.
+                </li>
+                <li>
+                  Biswas A, Oh PI, Faulkner GE, et al. Sedentary time and its
+                  association with risk for disease incidence, mortality, and
+                  hospitalization in adults: a systematic review and
+                  meta-analysis. <em>Ann Intern Med.</em> 2015;162(2):123-132.
+                </li>
+                <li>
+                  Tang MSS, Moore K, McGavigan A, Clark RA, Ganesan AN.
+                  Effectiveness of wearable trackers on physical activity in
+                  healthy adults: systematic review and meta-analysis of
+                  randomized controlled trials.
+                  <em>JMIR mHealth and uHealth.</em> 2020;8(7):e15576.
+                </li>
+                <li>
+                  Alter DA, et al. The implementation of a value-based learning
+                  health system for preventative care in Ontario, Canada.
+                  <em>Am J Cardiovasc Dis.</em> 2023.
+                </li>
+                <li>
+                  Alter DA. From insight to infrastructure: managing
+                  cardiorespiratory fitness. <em>J Am Coll Cardiol.</em> 2026.
+                </li>
+              </ol>
+            </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--blue blog-related">
+        <div class="container">
+          <div class="section-intro section-intro--split">
+            <div>
+              <p class="eyebrow">Related Articles</p>
+              <h2>Continue through the category.</h2>
+            </div>
+            <div>
+              <p>
+                These adjacent MHF pieces extend the same conversation into
+                clinical exercise infrastructure and prevention measurement.
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-related__grid blog-related__grid--two">
+            <article class="related-article-card">
+              <p class="related-article-card__meta">Clinical Exercise · 6 Min Read</p>
+              <h3>Exercise Is Medicine. So Why Can't Healthcare Prescribe It?</h3>
+              <p>
+                The foundational MHF article on why exercise remains one of
+                healthcare's least operationalized interventions.
+              </p>
+              <a href="Exercise%20Is%20Medicine.%20So%20Why%20Can%27t%20Healthcare%20Prescribe%20It%3F.html">Read Article</a>
+            </article>
+
+            <article class="related-article-card">
+              <p class="related-article-card__meta">Prevention Measurement · 6 Min Read</p>
+              <h3>Why Is Prevention Still Measured by Participation?</h3>
+              <p>
+                A companion piece on why attendance and completion rates are
+                still being used as proxies for cardiovascular outcomes.
+              </p>
+              <a href="Why%20Is%20Prevention%20Still%20Measured%20by%20Participation%3F.html">Read Article</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <div class="container footer__top">
+        <div class="footer__brand">
+          <a class="footer-brand-lockup" href="/" aria-label="My Heart Fitness home">
+            <span class="footer-brand-lockup__icon">
+              <img src="logo.svg" alt="" aria-hidden="true" />
+            </span>
+            <span class="footer-brand-lockup__wordmark">
+              <span>MY HEART</span>
+              <span>FITNESS</span>
+            </span>
+          </a>
+          <p>
+            Building the Infrastructure for Measurable Cardiometabolic
+            Prevention
+          </p>
+        </div>
+
+        <div class="footer__nav-group">
+          <p class="footer__heading">Explore</p>
+          <ul>
+            <li><a href="platform.html">Platform</a></li>
+            <li><a href="partnerships.html">Partnerships</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="research-evidence.html">Clinical Evidence</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav-group">
+          <p class="footer__heading">Resources</p>
+          <ul>
+            <li><a href="research-evidence.html#publications">Publications</a></li>
+            <li><a href="research-evidence.html#regulatory-pathway">Regulatory Pathway</a></li>
+            <li><a href="partnerships.html#request-demo">Implementation Partnerships</a></li>
+            <li><a href="insights.html#events-webinars">Events &amp; Webinars</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav-group" id="contact">
+          <p class="footer__heading">Connect</p>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html#request-demo">Request a Demo</a></li>
+            <li><a href="contact.html#contact-directory">Invite Dr. Alter to Speak</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer__note-wrap">
+        <div class="footer__note" id="footer-note">
+          <p>
+            My Heart Fitness is currently operating in an early
+            implementation and evidence-generation phase as a
+            cardiology-designed, educational, population-informed platform.
+            MHF is not currently marketed as FDA-approved or Health
+            Canada-approved clinical decision support. We are advancing
+            implementation partnerships and a defined regulatory strategy
+            toward future clinical decision-support use.
+          </p>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p>&copy; 2026 My Heart Fitness Inc. All rights reserved.</p>
+        <p>Toronto, Canada &middot; Patent Pending</p>
+      </div>
+    </footer>
+
+    <script src="script.js?v=20260623"></script>
+  </body>
+</html>
