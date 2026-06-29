@@ -3513,3 +3513,140 @@ body.has-motion .site-footer::before {
     filter: none !important;
   }
 }
+
+/* ── Registration Page ─────────────────────────────────── */
+
+.register-hero {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.register-hero__inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.register-hero__title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 1.25rem;
+  color: var(--ink);
+}
+
+.register-hero__lede {
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.register-form {
+  background: var(--bg-blue);
+  padding-top: 0;
+  padding-bottom: 5.5rem;
+}
+
+.register-form-wrap {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+#_form_63_ {
+  background: var(--surface) !important;
+  border: 1px solid rgba(109, 169, 247, 0.3) !important;
+  border-top: 4px solid var(--accent) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+  padding: 2.5rem 2.25rem !important;
+  max-width: 100% !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#_form_63_ ._form-title {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: var(--ink) !important;
+}
+
+#_form_63_ ._html-code,
+#_form_63_ ._html-code p {
+  font-family: "Poppins", sans-serif !important;
+  color: var(--muted) !important;
+}
+
+#_form_63_ ._form-label {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  color: var(--ink) !important;
+  font-size: 0.9rem !important;
+}
+
+#_form_63_ input[type="text"],
+#_form_63_ input[type="tel"],
+#_form_63_ input[type="date"],
+#_form_63_ textarea,
+#_form_63_ select {
+  font-family: "Poppins", sans-serif !important;
+  background: var(--surface-soft) !important;
+  border: 1px solid rgba(109, 169, 247, 0.35) !important;
+  border-radius: var(--radius-sm) !important;
+  color: var(--ink) !important;
+  padding: 10px 14px !important;
+  font-size: 0.95rem !important;
+  transition: border-color var(--motion-duration-fast) ease;
+}
+
+#_form_63_ input[type="text"]:focus,
+#_form_63_ input[type="tel"]:focus,
+#_form_63_ textarea:focus,
+#_form_63_ select:focus {
+  border-color: var(--line-blue) !important;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(109, 169, 247, 0.15);
+}
+
+#_form_63_ ._submit {
+  font-family: "Poppins", sans-serif !important;
+  background: var(--accent) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: var(--radius-sm) !important;
+  padding: 12px 28px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: background var(--motion-duration-fast) ease,
+              transform var(--motion-duration-fast) ease;
+  width: 100%;
+}
+
+#_form_63_ ._submit:hover {
+  background: var(--accent-dark) !important;
+  transform: translateY(-1px);
+}
+
+#_form_63_ ._submit:active {
+  transform: translateY(0);
+}
+
+#_form_63_ .sms_consent_message {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.8rem !important;
+  color: var(--muted) !important;
+  line-height: 1.5;
+}
+
+#_form_63_ .field-required {
+  color: var(--accent) !important;
+}
+
+#_form_63_ ._form-thank-you {
+  font-family: "Poppins", sans-serif !important;
+  color: var(--ink) !important;
+}
+
+#_form_63_ ._form-branding {
+  display: none !important;
+}
