@@ -1185,6 +1185,10 @@ body.has-motion .hero__details .detail-group:hover {
   max-width: 880px;
 }
 
+.current-stage .current-stage__inner {
+  padding: 3rem 2rem;
+}
+
 .current-stage h2 {
   max-width: 13ch;
   margin-left: auto;
@@ -1454,7 +1458,7 @@ body.has-motion .site-footer::before {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 768px) {
   .container {
     width: min(100% - 2rem, var(--container));
   }
