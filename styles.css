@@ -1041,6 +1041,7 @@ body.has-motion .hero__details .detail-group:hover {
 
 .platform-cta-band__inner {
   text-align: center;
+  padding: 3rem 2rem;
 }
 
 .platform-cta-band h2 {
@@ -1186,7 +1187,7 @@ body.has-motion .hero__details .detail-group:hover {
 }
 
 .current-stage .current-stage__inner {
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .current-stage h2 {
@@ -1809,6 +1810,7 @@ body.has-motion .site-footer::before {
 .partnerships-cta__inner {
   text-align: center;
   max-width: 1120px;
+  padding: 2rem 2rem;
 }
 
 .partnerships-cta h2 {
