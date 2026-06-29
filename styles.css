@@ -62,82 +62,44 @@ body::after {
   transition: opacity var(--motion-duration-slow) ease;
 }
 
-body.has-motion::before {
-  top: -12rem;
-  right: -10rem;
-  width: 42rem;
-  height: 42rem;
-  opacity: 0.72;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(109, 169, 247, 0.3), transparent 58%),
-    radial-gradient(circle at 65% 60%, rgba(255, 255, 255, 0.2), transparent 42%);
-  animation: ambientFloat 20s ease-in-out infinite alternate;
-}
-
-body.has-motion::after {
-  left: -10rem;
-  bottom: -14rem;
-  width: 38rem;
-  height: 38rem;
-  opacity: 0.55;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(234, 153, 40, 0.2), transparent 60%),
-    radial-gradient(circle at 32% 34%, rgba(255, 255, 255, 0.16), transparent 34%);
-  animation: ambientFloat 24s ease-in-out infinite alternate-reverse;
-}
-
 .motion-reveal {
   --motion-x: 0px;
-  --motion-y: var(--motion-distance);
+  --motion-y: var(--motion-distance, 20px); /* Default fallback */
   --motion-scale: 1;
-  --motion-blur: 0px;
 }
 
 body.has-motion .motion-reveal {
   opacity: 0;
   transform: translate3d(var(--motion-x), var(--motion-y), 0) scale(var(--motion-scale));
-  filter: blur(var(--motion-blur));
   transition:
-    opacity var(--motion-duration) var(--motion-ease-soft),
-    transform var(--motion-duration) var(--motion-ease-soft),
-    filter var(--motion-duration) var(--motion-ease);
+    opacity var(--motion-duration, 600ms) var(--motion-ease-soft, ease-out),
+    transform var(--motion-duration, 600ms) var(--motion-ease-soft, ease-out);
   transition-delay: var(--motion-delay, 0ms);
-  will-change: transform, opacity, filter;
+}
+
+body.has-motion .motion-reveal.is-preparing {
+  will-change: transform, opacity;
 }
 
 body.has-motion .motion-reveal.is-visible {
   opacity: 1;
   transform: translate3d(0, 0, 0) scale(1);
-  filter: blur(0);
+  will-change: auto;
 }
 
 .motion-reveal--rise {
-  --motion-y: 38px;
+  --motion-y: 30px;
 }
 
 .motion-reveal--soft {
-  --motion-y: 24px;
-  --motion-scale: 0.985;
+  --motion-y: 15px;
+  --motion-scale: 0.99;
 }
 
 .motion-reveal--zoom {
-  --motion-y: 22px;
-  --motion-scale: 0.96;
-  --motion-blur: 4px;
-}
-
-.motion-reveal--left {
-  --motion-x: -42px;
-  --motion-y: 0px;
-}
-
-.motion-reveal--right {
-  --motion-x: 42px;
-  --motion-y: 0px;
-}
-
-.motion-reveal--down {
-  --motion-y: -28px;
+  --motion-y: 15px;
+  --motion-scale: 0.97;
+  /* Removed blur entirely */
 }
 
 @keyframes ambientFloat {
